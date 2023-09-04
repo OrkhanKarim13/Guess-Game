@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="gameCenter">
+      <div class="content">
+        <div class="title">Guess My Number!</div>
+        <div class="numberBox">
+          <span class="boxCount"><i class="fa-solid fa-question"></i> </span>
+        </div>
+        <div class="check">
+          <div class="left">
+            <input class="input" type="number" maxlength="2" />
+            <button class="btn" onclick="check()">Check</button>
+          </div>
+          <div class="gameInfo">
+            <div class="score">
+              <span class="correct"
+                ><i class="fa-solid fa-circle-check"></i>Score:
+                <span class="scoreCount">20</span></span>
+              <span class="high"
+                ><i class="fa-solid fa-trophy"></i>High score: 0</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/85a60fd075.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="./script.js"></script>
+</html>
